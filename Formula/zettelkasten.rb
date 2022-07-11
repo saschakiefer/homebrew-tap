@@ -10,11 +10,11 @@ class Zl < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink "#{libexec}/bin/zettelkasten" => "zettelkasten"
+    bin.install_symlink "#{libexec}/bin/zl" => "zl"
   end
 
   test do
-    output = shell_output("#{bin}/zettelkasten --version")
+    output = shell_output("#{bin}/zl --version")
     assert_match "0.1.2", output
   end
 end
