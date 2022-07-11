@@ -1,7 +1,7 @@
-# Generated with JReleaser 1.0.0 at 2022-07-11T18:24:19.946706Z
+# Generated with JReleaser 1.0.0 at 2022-07-11T18:24:28.260408Z
 class Zl < Formula
   desc "My Zettelkasten interpretation"
-  homepage "https://github.com/saschakiefer/zettelkasten"
+  homepage "https://github.com/saschakiefer/zettelkasten/domain"
   url "https://github.com/saschakiefer/zettelkasten/releases/download/0.1.2/zettelkasten-0.1.2-osx-x86_64.zip"
   version "0.1.2"
   sha256 "ad609f50e24eb8ccdb3084d236aff73b0cb326bf8797c266f3408027cdd2567f"
